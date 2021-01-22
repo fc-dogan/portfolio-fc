@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Header';
 import AboutMe from './AboutMe';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -20,8 +21,5 @@ function App() {
   );
 }
 
-function Projects() {
-  return <p>projects</p>
-}
 
 export default App;
