@@ -9,14 +9,16 @@ function App() {
   return (
     <Router>
       <Header />
-      <Switch>
+      <Projects/>
+      <AboutMe />
+      {/* <Switch>
         <Route path="/aboutme">
           <AboutMe />
         </Route>
         <Route path="/projects">
           <Projects />
         </Route>
-      </Switch>
+      </Switch> */}
     </Router>
   );
 }

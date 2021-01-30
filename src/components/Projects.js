@@ -4,7 +4,7 @@ import pierres from '../assets/pierres.png';
 import airport from '../assets/PDXAirportGuide.png';
 import taproom from '../assets/taproom.png';
 import hangman from '../assets/hangman.png';
-import { Card, Button, Row, Col, Container } from 'react-bootstrap';
+import { Card, CardDeck, Row, Col, Container } from 'react-bootstrap';
 
 const projectsData = [
   {
@@ -52,30 +52,47 @@ const projectsData = [
 ]
 
 function Projects() {
-
   
+  const styles = {
+    card: {
+      borderRadius: 7,
+      margin: 10,
+      height: '95%'
+    },
+    cardImage: {
+      borderRadius: 5,
+      padding: '5px',
+      width: '12rem',
+      alignSelf: 'center',    
+    },
+  }
+   
   return (
     <React.Fragment>
-      <Container>
+      <Container id="projects">
         <h1>Projects</h1>
         <Row>
+        <CardDeck>
           {projectsData.map( (project , index )=> {
             return (
               <Col key={index} >
-              <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={project.image} style={{ width: '10rem', alignSelf: 'center' }}/>
+              <Card style={styles.card}>
+              <Card.Img variant="top" src={project.image} style={styles.cardImage}/>
               <Card.Body>
                 <Card.Title>{project.name}</Card.Title>
                 <Card.Text>
                   {project.description}
                 </Card.Text>
+              </Card.Body>
+              <Card.Footer>
                 <Card.Link href={project.liveSite}>Source</Card.Link>
                 <Card.Link href={project.liveSite}>{project.liveSite ? 'View Live' : ''}</Card.Link>
-              </Card.Body>
+              </Card.Footer>
               </Card>
               </Col>
             )
           })}
+        </CardDeck>
         </Row>
       </Container>
       
