@@ -4,13 +4,16 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
+import Intro from './Intro'
+import AboutmeModal from './AboutmeModal';
 
 function App() {
   return (
     <Router>
       <Header />
+      <Intro />
+      <AboutmeModal />
       <Projects/>
-      <AboutMe />
       {/* <Switch>
         <Route path="/aboutme">
           <AboutMe />

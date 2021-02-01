@@ -7,10 +7,10 @@ function Header () {
   return (
     
       <Navbar collapseOnSelect
-      fixed='top'
+      // fixed='top'
       expand='lg'
       variant='light'
-      style={{backgroundColor:'lightgrey'}}
+      // style={{backgroundColor:'lightgrey'}}
       >
         <Container>
           <Navbar.Brand>FCD</Navbar.Brand>
@@ -24,6 +24,9 @@ function Header () {
             <Nav.Link href="https://github.com/fc-dogan"><FaGithub/></Nav.Link>
             </Nav>
           </Navbar.Collapse>
+        </Container>
+        <Container>
+          
         </Container>
       </Navbar>
       
