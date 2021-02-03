@@ -6,13 +6,16 @@ import AboutMe from './AboutMe';
 import Projects from './Projects';
 import Intro from './Intro'
 import AboutmeModal from './AboutmeModal';
+import Sidebar from './SideBar';
 
 function App() {
   return (
     <Router>
-      <Header />
+    <Sidebar />
+      {/* <Header /> */}
+    <div id='content'>
       <Intro />
-      <AboutmeModal />
+      {/* <AboutmeModal /> */}
       <Projects/>
       {/* <Switch>
         <Route path="/aboutme">
@@ -22,6 +25,7 @@ function App() {
           <Projects />
         </Route>
       </Switch> */}
+    </div>
     </Router>
   );
 }
