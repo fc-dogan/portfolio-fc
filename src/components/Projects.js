@@ -57,7 +57,7 @@ function Projects() {
     card: {
       borderRadius: 7,
       margin: 10,
-      height: '95%'
+      height: '95%',
     },
     cardImage: {
       borderRadius: 5,
@@ -70,29 +70,33 @@ function Projects() {
   return (
     <React.Fragment>
       <Container id="projects">
-        <h1>Projects</h1>
         <Row>
-        <CardDeck>
-          {projectsData.map( (project , index )=> {
-            return (
-              <Col key={index} >
-              <Card style={styles.card}>
-              <Card.Img variant="top" src={project.image} style={styles.cardImage}/>
-              <Card.Body>
-                <Card.Title>{project.name}</Card.Title>
-                <Card.Text>
-                  {project.description}
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <Card.Link href={project.liveSite}>Source</Card.Link>
-                <Card.Link href={project.liveSite}>{project.liveSite ? 'View Live' : ''}</Card.Link>
-              </Card.Footer>
-              </Card>
-              </Col>
-            )
-          })}
-        </CardDeck>
+          <Col sm={3}>
+           <h2>Projects</h2>
+          </Col>
+          <Col>
+            <CardDeck>
+              {projectsData.map( (project , index )=> {
+                return (
+                  <Col key={index} >
+                  <Card style={styles.card}>
+                  <Card.Img variant="top" src={project.image} style={styles.cardImage}/>
+                  <Card.Body>
+                    <Card.Title>{project.name}</Card.Title>
+                    <Card.Text>
+                      {project.description}
+                    </Card.Text>
+                  </Card.Body>
+                  <Card.Footer>
+                    <Card.Link href={project.liveSite}>Source</Card.Link>
+                    <Card.Link href={project.liveSite}>{project.liveSite ? 'View Live' : ''}</Card.Link>
+                  </Card.Footer>
+                  </Card>
+                  </Col>
+                )
+              })}
+            </CardDeck>
+          </Col>
         </Row>
       </Container>
       

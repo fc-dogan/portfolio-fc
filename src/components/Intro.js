@@ -3,17 +3,18 @@ import AboutMe from './AboutMe';
 import {Button, Container} from 'react-bootstrap';
 import web from "../assets/web.jpg";
 import wallpaper from "../assets/wallpaper.jpg";
+import wallpaper1 from "../assets/wallpaper1.jpg";
 
 function Intro() {
   
   const styles = { 
     container: {
       flex: '1',
-      backgroundImage: `url(${wallpaper})`,
-      // backgroundSize: '100%', 
-      backgroundPosition: 'bottom', 
-      height: '700px',
-      // textAlign: 'center',
+      backgroundImage: `url(${wallpaper1})`,
+      backgroundSize: 'cover', 
+      backgroundRepeat: 'no-repeat',
+      padding: '18% 3%',
+      height: 'auto',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',

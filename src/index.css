@@ -17,6 +17,16 @@ code {
   color: blue;
 }
 
+h1, h2 {
+  /* text-align: center; */
+  color: gray;
+  padding: 2%;
+  border-bottom: 2px solid purple;
+}
+
+#projects, #education {
+  padding-top: 5rem;
+}
 
 /* The side navigation menu */
 .sidebar {
