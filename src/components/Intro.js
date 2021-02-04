@@ -2,28 +2,25 @@ import React, {useState} from 'react';
 import AboutMe from './AboutMe';
 import {Button, Container} from 'react-bootstrap';
 import web from "../assets/web.jpg";
+import wallpaper from "../assets/wallpaper.jpg";
 
 function Intro() {
-
-
-  // return (
-  //   <div>
-  //    <h3>Hello</h3>
-  //   </div>
-
-  // )
+  
   const styles = { 
     container: {
-      // backgroundImage: `url(${web})`,
+      flex: '1',
+      backgroundImage: `url(${wallpaper})`,
       // backgroundSize: '100%', 
       backgroundPosition: 'bottom', 
-      height: '500px',
+      height: '700px',
       // textAlign: 'center',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      flexDirection: 'column'
+      flexDirection: 'column',
+      color: 'lightgrey'
      }
+ 
   }
   const [aboutmeVisibleOnPage, setAboutmeVisibleOnPage] = useState(false);
   let buttonText = null;
@@ -63,18 +60,10 @@ function Intro() {
 
   return (
     <React.Fragment>
-      {/* <div clasName="content"> */}
-        {/* <Container> */}
-          {/* <h3>Intro</h3> */}
-        <div style={styles.container}>
-          {currentPage()}
-          <Button variant="outline-info" onClick={handleClick}> {buttonText} </Button>
-        </div>
-        
-      {/* </Container> */}
-      {/* </div> */}
-      
-      
+      <div style={styles.container}>
+        {currentPage()}
+        <Button variant="outline-info" onClick={handleClick} style={{margin:"30px",}} > {buttonText} </Button>
+      </div>      
     </React.Fragment>
   )
 }

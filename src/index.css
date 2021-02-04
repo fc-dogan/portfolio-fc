@@ -21,7 +21,7 @@ code {
 /* The side navigation menu */
 .sidebar {
   margin: 0;
-  padding: 0;
+  padding-top: 10%;
   width: 200px;
   background-color: #f1f1f1;
   position: fixed;
@@ -36,6 +36,9 @@ code {
   padding: 16px;
   text-decoration: none;
 }
+.social a {
+  display: inline-block;
+}
 
 /* Links on mouse-over */
 .sidebar a:hover{
@@ -47,10 +50,17 @@ code {
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 #content {
   margin-left: 200px;
-  padding: 1px 16px;
+  /* padding: 1px 16px; */
   /* background-color: lightcoral;
    */
   /* height: 1000px; */
+}
+
+#profile {
+  display: block;
+  margin: auto;
+  width: 80%;
+  padding: 2% 0;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -65,7 +75,7 @@ code {
     margin-left: 0;
     background-color:lightblue}
     #profile {
-      visibility:hidden;
+      display: none;
     }
 }
 
