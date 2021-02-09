@@ -3,12 +3,13 @@ import React from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { FaLinkedin, FaGithub , FaEnvelope } from 'react-icons/fa';
 import profilePic from '../assets/fc1.jpg'
+import './Sidebar.css'
 
 function SideBar() {
   return (
     <div className='sidebar'>
       <div id='profile'>
-        <img src={profilePic} alt="fatma dogan" style={{width:'120px', }}/>
+        {/* <img src={profilePic} alt="fatma dogan" style={{width:'120px', }}/> */}
          <h4>Fatma C. Dogan</h4>
       </div>
       <a href="/"  > home</a>

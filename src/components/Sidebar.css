@@ -1,0 +1,53 @@
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding-top: 10%;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  color: #4a4a6c
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: gray;
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+}
+.social a {
+  display: inline-block;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover{
+  background-color: #555;
+  color: white;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  #content {
+    margin-left: 0;
+   }
+    #profile {
+      display: none;
+    }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  
+}

@@ -7,28 +7,19 @@ import Projects from './Projects';
 import Intro from './Intro'
 import AboutmeModal from './AboutmeModal';
 import Sidebar from './SideBar';
-import Education from './Education'
+import Education from './Education';
 
 function App() {
   return (
-    <Router>
+    <React.Fragment>
     <Sidebar />
       {/* <Header /> */}
     <div id='content'>
       <Intro />
-      {/* <AboutmeModal /> */}
       <Projects/>
       <Education />
-      {/* <Switch>
-        <Route path="/aboutme">
-          <AboutMe />
-        </Route>
-        <Route path="/projects">
-          <Projects />
-        </Route>
-      </Switch> */}
     </div>
-    </Router>
+    </React.Fragment>
   );
 }
 

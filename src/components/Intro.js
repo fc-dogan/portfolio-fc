@@ -10,7 +10,7 @@ function Intro() {
   const styles = { 
     container: {
       flex: '1',
-      backgroundImage: `url(${wallpaper1})`,
+      // backgroundImage: `url(${wallpaper1})`,
       backgroundSize: 'cover', 
       backgroundRepeat: 'no-repeat',
       padding: '18% 3%',

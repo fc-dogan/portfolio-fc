@@ -25,12 +25,12 @@ function Education() {
           <Col>
               {educationData.map( (education , index )=> {
                 return (
-                  <Card key={index}  >
+                  <Card key={index} style={{ margin:10}} border="light" >
                   <Card.Body>
-                    <Card.Header>{education.schoolName} </Card.Header>
-                    <Card.Text>
+                    <Card.Title>{education.schoolName} </Card.Title>
+                    <Card.Subtitle>
                       {education.degree} -- <small>{education.city}</small>
-                    </Card.Text>
+                    </Card.Subtitle>
                   </Card.Body>
                   </Card>
                 )

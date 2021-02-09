@@ -15,20 +15,6 @@ const projectsData = [
     liveSite: 'https://childtrack-b1767.web.app/',
   },
   {
-    name: "Pierre's Sweet and Savory Treats",
-    description: 'An ASP.NET MVC application with user authentication and many-to-many database relationship.',
-    image: pierres,
-    sourceUrl: 'https://github.com/fc-dogan/Pierre-s-Treats',
-    liveSite: '',
-  },
-  {
-    name: 'Animal Shelter API',
-    description: 'A REST API with ASP.NET for a local animal shelter',
-    image: '',
-    sourceUrl: 'https://github.com/fc-dogan/AnimalShelterAPI',
-    liveSite: '',
-  },
-  {
     name: 'Taproom',
     description: `An application built in React Redux to track a taproom's taps by name, brand, price, flavor, and quantity.`,
     image: taproom,
@@ -41,6 +27,20 @@ const projectsData = [
     image: hangman,
     sourceUrl: 'https://github.com/fc-dogan/hangman',
     liveSite: 'https://fc-dogan.github.io/hangman/',
+  },
+  {
+    name: "Pierre's Sweet and Savory Treats",
+    description: 'An ASP.NET MVC application with user authentication and many-to-many database relationship.',
+    image: pierres,
+    sourceUrl: 'https://github.com/fc-dogan/Pierre-s-Treats',
+    liveSite: '',
+  },
+  {
+    name: 'Animal Shelter API',
+    description: 'A REST API with ASP.NET for a local animal shelter',
+    image: '',
+    sourceUrl: 'https://github.com/fc-dogan/AnimalShelterAPI',
+    liveSite: '',
   },
   {
     name: 'Pdx Airport Guide',
@@ -88,7 +88,7 @@ function Projects() {
                     </Card.Text>
                   </Card.Body>
                   <Card.Footer>
-                    <Card.Link href={project.liveSite}>Source</Card.Link>
+                    <Card.Link href={project.sourceUrl}>Source</Card.Link>
                     <Card.Link href={project.liveSite}>{project.liveSite ? 'View Live' : ''}</Card.Link>
                   </Card.Footer>
                   </Card>
