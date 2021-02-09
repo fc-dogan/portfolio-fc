@@ -8,6 +8,7 @@ import Intro from './Intro'
 import AboutmeModal from './AboutmeModal';
 import Sidebar from './SideBar';
 import Education from './Education';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Projects/>
       <Education />
     </div>
+    <Footer />
     </React.Fragment>
   );
 }

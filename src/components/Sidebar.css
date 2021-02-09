@@ -4,6 +4,7 @@
   padding-top: 10%;
   width: 200px;
   background-color: #f1f1f1;
+  /* background-color: #555; */
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -41,6 +42,7 @@
     #profile {
       display: none;
     }
+  .footer { display: none;}
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */

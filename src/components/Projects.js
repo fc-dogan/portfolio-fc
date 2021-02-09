@@ -62,7 +62,8 @@ function Projects() {
     cardImage: {
       borderRadius: 5,
       padding: '5px',
-      width: '12rem',
+      maxWidth: '12rem',
+      width: '100%',
       alignSelf: 'center',    
     },
   }

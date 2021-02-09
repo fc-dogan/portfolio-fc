@@ -3,7 +3,8 @@ import React from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import { FaLinkedin, FaGithub , FaEnvelope } from 'react-icons/fa';
 import profilePic from '../assets/fc1.jpg'
-import './Sidebar.css'
+import './Sidebar.css';
+import Footer from './Footer';
 
 function SideBar() {
   return (
@@ -20,6 +21,7 @@ function SideBar() {
         <a href="https://github.com/fc-dogan" ><FaGithub size='1.2rem' /></a>
         <a href="mailto:fceyda@gmail.com" ><FaEnvelope size='1.2rem' /></a>
       </div>
+ 
 
     </div>
   )
