@@ -17,7 +17,7 @@ function Education() {
   ]
 
   return (
-    <Container id="education">
+    <Container fluid id="education">
       <Row>
           <Col sm={3}>
            <h2>Education</h2>

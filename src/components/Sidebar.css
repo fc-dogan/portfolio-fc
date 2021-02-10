@@ -1,4 +1,15 @@
-/* The side navigation menu */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto+Slab:wght@700&display=swap');
+
+#name {
+  /* font-family: 'Yellowtail', cursive; */
+  /* font-family: 'Caveat', cursive; */
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.3rem;
+  color: #3a375a;
+  padding-bottom: 20%;
+}
+
 .sidebar {
   margin: 0;
   padding-top: 10%;
@@ -20,6 +31,7 @@
 }
 .social a {
   display: inline-block;
+  font-size: 1.7rem;
 }
 
 /* Links on mouse-over */
@@ -34,14 +46,22 @@
     width: 100%;
     height: auto;
     position: relative;
+    font-size: 80%;
+    padding-top: 0%;
   }
-  .sidebar a {float: left;}
+  .sidebar a {
+    /* float: left;  */
+    display: inline-block;
+  }
+  .social {
+    display: inline;
+  }
   #content {
     margin-left: 0;
    }
-    #profile {
-      display: none;
-    }
+  #profile {
+    display: none;
+  }
   .footer { display: none;}
 }
 

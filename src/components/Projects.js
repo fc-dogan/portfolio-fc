@@ -4,7 +4,7 @@ import pierres from '../assets/pierres.png';
 import airport from '../assets/PDXAirportGuide.png';
 import taproom from '../assets/taproom.png';
 import hangman from '../assets/hangman.png';
-import { Card, CardDeck, Row, Col, Container } from 'react-bootstrap';
+import { Card, CardDeck, Row, Col, Container, CardColumns } from 'react-bootstrap';
 
 const projectsData = [
   {
@@ -58,45 +58,49 @@ function Projects() {
       borderRadius: 7,
       margin: 10,
       height: '95%',
+      maxWidth: '20rem',
+      minWidth: '12rem',
+      width: '100%',
     },
     cardImage: {
       borderRadius: 5,
-      padding: '5px',
-      maxWidth: '12rem',
+      padding: '10px',
+      maxWidth: '20rem',
       width: '100%',
       alignSelf: 'center',    
     },
   }
-   
+  // style={{borderBottom: '3px solid #fbb9c0'}}
   return (
     <React.Fragment>
-      <Container id="projects">
+      <Container fluid id="projects">
         <Row>
           <Col sm={3}>
            <h2>Projects</h2>
           </Col>
           <Col>
-            <CardDeck>
+          <CardDeck>
               {projectsData.map( (project , index )=> {
                 return (
-                  <Col key={index} >
-                  <Card style={styles.card}>
+                  <Col >
+                  <Card key={index} style={styles.card}>
                   <Card.Img variant="top" src={project.image} style={styles.cardImage}/>
                   <Card.Body>
-                    <Card.Title>{project.name}</Card.Title>
+                    <Card.Title >{project.name}</Card.Title>
                     <Card.Text>
                       {project.description}
                     </Card.Text>
                   </Card.Body>
                   <Card.Footer>
-                    <Card.Link href={project.sourceUrl}>Source</Card.Link>
-                    <Card.Link href={project.liveSite}>{project.liveSite ? 'View Live' : ''}</Card.Link>
+                    <Card.Link href={project.sourceUrl} className='link' >Source</Card.Link>
+                    <Card.Link href={project.liveSite} className='link'>{project.liveSite ? 'View Live' : ''}</Card.Link>
                   </Card.Footer>
                   </Card>
-                  </Col>
+                </Col>
                 )
               })}
             </CardDeck>
+
           </Col>
         </Row>
       </Container>
