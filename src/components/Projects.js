@@ -19,7 +19,7 @@ const projectsData = [
     description: `An application built in React Redux to track a taproom's taps by name, brand, price, flavor, and quantity.`,
     image: taproom,
     sourceUrl: 'https://github.com/fc-dogan/Taproom-Redux',
-    liveSite: '',
+    liveSite: 'https://fc-dogan.github.io/Taproom-Redux/',
   },
   {
     name: 'Hangman',
