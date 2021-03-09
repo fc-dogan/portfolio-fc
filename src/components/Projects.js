@@ -70,7 +70,7 @@ function Projects() {
       alignSelf: 'center',    
     },
   }
-  // style={{borderBottom: '3px solid #fbb9c0'}}
+
   return (
     <React.Fragment>
       <Container fluid id="projects">
