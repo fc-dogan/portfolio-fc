@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio-fc/static/css/main.641dbd38.chunk.css",
-    "main.js": "/portfolio-fc/static/js/main.7abe226b.chunk.js",
-    "main.js.map": "/portfolio-fc/static/js/main.7abe226b.chunk.js.map",
-    "runtime-main.js": "/portfolio-fc/static/js/runtime-main.a2d873db.js",
-    "runtime-main.js.map": "/portfolio-fc/static/js/runtime-main.a2d873db.js.map",
-    "static/css/2.b0704b7a.chunk.css": "/portfolio-fc/static/css/2.b0704b7a.chunk.css",
-    "static/js/2.5b9435b2.chunk.js": "/portfolio-fc/static/js/2.5b9435b2.chunk.js",
-    "static/js/2.5b9435b2.chunk.js.map": "/portfolio-fc/static/js/2.5b9435b2.chunk.js.map",
-    "index.html": "/portfolio-fc/index.html",
-    "precache-manifest.8e9b2486a778f4fdcc0eacc54dc58e97.js": "/portfolio-fc/precache-manifest.8e9b2486a778f4fdcc0eacc54dc58e97.js",
-    "service-worker.js": "/portfolio-fc/service-worker.js",
-    "static/css/2.b0704b7a.chunk.css.map": "/portfolio-fc/static/css/2.b0704b7a.chunk.css.map",
-    "static/css/main.641dbd38.chunk.css.map": "/portfolio-fc/static/css/main.641dbd38.chunk.css.map",
-    "static/js/2.5b9435b2.chunk.js.LICENSE.txt": "/portfolio-fc/static/js/2.5b9435b2.chunk.js.LICENSE.txt",
-    "static/media/PDXAirportGuide.png": "/portfolio-fc/static/media/PDXAirportGuide.7f4231ce.png",
-    "static/media/chilTrack.png": "/portfolio-fc/static/media/chilTrack.dba35c81.png",
-    "static/media/hangman.png": "/portfolio-fc/static/media/hangman.220cbda5.png",
-    "static/media/maarten-deckers-T5nXYXCf50I-unsplash.jpg": "/portfolio-fc/static/media/maarten-deckers-T5nXYXCf50I-unsplash.6c0a4a8c.jpg",
-    "static/media/pierres.png": "/portfolio-fc/static/media/pierres.e9ec1540.png",
-    "static/media/taproom.png": "/portfolio-fc/static/media/taproom.e9beb696.png"
+    "main.css": "/static/css/main.641dbd38.chunk.css",
+    "main.js": "/static/js/main.556a8681.chunk.js",
+    "main.js.map": "/static/js/main.556a8681.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6b3488d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6b3488d1.js.map",
+    "static/css/2.b0704b7a.chunk.css": "/static/css/2.b0704b7a.chunk.css",
+    "static/js/2.5b9435b2.chunk.js": "/static/js/2.5b9435b2.chunk.js",
+    "static/js/2.5b9435b2.chunk.js.map": "/static/js/2.5b9435b2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b8d9adaae33571bb37e829fb22c26485.js": "/precache-manifest.b8d9adaae33571bb37e829fb22c26485.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.b0704b7a.chunk.css.map": "/static/css/2.b0704b7a.chunk.css.map",
+    "static/css/main.641dbd38.chunk.css.map": "/static/css/main.641dbd38.chunk.css.map",
+    "static/js/2.5b9435b2.chunk.js.LICENSE.txt": "/static/js/2.5b9435b2.chunk.js.LICENSE.txt",
+    "static/media/PDXAirportGuide.png": "/static/media/PDXAirportGuide.7f4231ce.png",
+    "static/media/chilTrack.png": "/static/media/chilTrack.dba35c81.png",
+    "static/media/hangman.png": "/static/media/hangman.220cbda5.png",
+    "static/media/maarten-deckers-T5nXYXCf50I-unsplash.jpg": "/static/media/maarten-deckers-T5nXYXCf50I-unsplash.6c0a4a8c.jpg",
+    "static/media/pierres.png": "/static/media/pierres.e9ec1540.png",
+    "static/media/taproom.png": "/static/media/taproom.e9beb696.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2d873db.js",
+    "static/js/runtime-main.6b3488d1.js",
     "static/css/2.b0704b7a.chunk.css",
     "static/js/2.5b9435b2.chunk.js",
     "static/css/main.641dbd38.chunk.css",
-    "static/js/main.7abe226b.chunk.js"
+    "static/js/main.556a8681.chunk.js"
   ]
 }
