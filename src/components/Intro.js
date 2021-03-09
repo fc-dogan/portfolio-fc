@@ -2,7 +2,7 @@ import React  from 'react';
 // import AboutMe from './AboutMe';
 import { Container, Row, Accordion, Card} from 'react-bootstrap';
 import wallpaper from '../assets/maarten-deckers-T5nXYXCf50I-unsplash.jpg';
-import wallpaper1 from '../assets/wallpaper1.jpg';
+// import wallpaper1 from '../assets/wallpaper1.jpg';
 
 function Intro() {
   
