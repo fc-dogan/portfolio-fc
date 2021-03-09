@@ -1,17 +1,25 @@
 import React from 'react';
-import {Button, Container} from 'react-bootstrap';
-import paint from '../assets/paint-stroke.png'
-import brush from '../assets/brush.png'
+import { Row, Col, Container } from 'react-bootstrap';
+
 
 function AboutMe() {
 
   return (
     <React.Fragment>
-        <div style={{ width: '50%' , paddingBottom: '4rem'}} >
-        <p> A passionate web developer transitioning from a career in architecture.
-        Currently, I am pursuing the opportunities to build functional, and responsive applications, and expand my skillset.</p>
-        <p> If you have any questions please <a href='mailto:fceyda@gmail.com' style={{color: 'lightgrey'}}>contact me</a>.</p>
-      </div>
+      <Container fluid id="aboutMe">
+        <Row>
+          <Col sm={3}>
+            <h2>About me</h2>
+          </Col>
+          <Col>
+            <div style={{ width: '70%' , padding: '2rem 1rem', }} >
+            <p> A passionate web developer transitioning from a career in architecture.
+            Currently, I am pursuing the opportunities to build functional, and responsive applications, and expand my skillset.</p>
+            <p> If you have any questions please <a href='mailto:fceyda@gmail.com' style={{color: 'grey', fontWeight: 'bolder'}}>contact me</a>.</p>
+            </div>
+          </Col>
+        </Row>
+       </Container>       
       </React.Fragment>
   )
 }

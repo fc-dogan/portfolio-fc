@@ -4,7 +4,7 @@ import pierres from '../assets/pierres.png';
 import airport from '../assets/PDXAirportGuide.png';
 import taproom from '../assets/taproom.png';
 import hangman from '../assets/hangman.png';
-import { Card, CardDeck, Row, Col, Container, CardColumns } from 'react-bootstrap';
+import { Card, CardDeck, Row, Col, Container } from 'react-bootstrap';
 
 const projectsData = [
   {

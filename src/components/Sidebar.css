@@ -46,23 +46,44 @@
     width: 100%;
     height: auto;
     position: relative;
-    font-size: 80%;
     padding-top: 0%;
-  }
-  .sidebar a {
-    /* float: left;  */
-    display: inline-block;
+    display: flex;
   }
   .social {
-    display: inline;
+    flex: 50%;
   }
   #content {
     margin-left: 0;
-   }
-  #profile {
-    display: none;
   }
-  .footer { display: none;}
+  .social a{
+    padding: 5px;
+    margin: 5px;
+  }
+  #name {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 5px;
+    flex: 50%;
+  }
+  #links {
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+    background-color: #f1f1f1;
+    z-index: 1;
+  }
+  #links a {
+    display: inline-block;
+  }
+  .footer p {
+    flex: 100%;
+  }
+  #greeting {
+    background-color: rgba(243, 241, 241, 0.664);
+    padding: 10%;
+    color: #4a4a6c;
+    font-size: 80%;
+  }
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */

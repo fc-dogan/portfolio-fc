@@ -1,61 +1,18 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 
 h1, h2 {
-  /* text-align: center; */
   color: #4a4a6c;
   padding: 2%;
   border-bottom: 4px solid #844158;
 }
 
 
-#projects, #education {
+#projects, #education, #aboutMe {
   padding: 4rem 2rem 2rem 2rem;
 }
 
 #content {
   margin-left: 200px;
-  /* padding: 1px 16px; */
-  /* background-color: #bda07e3b; */
-  
-  /* height: 1000px; */
+  overflow: scroll;
 }
 
 #profile {
@@ -65,15 +22,28 @@ h1, h2 {
   padding: 2% 0;
 }
 
-.footer{
-  font-size: 0.8rem;
+.footer {
+  font-size: 90%;
   color: #4a4a6c;
-  margin-top: 1rem;
-  padding: 1rem;
-  position: fixed;
-  bottom: 0;
+  padding: .5rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  /* margin-top: .5rem; */
+  /* position: fixed; */
+  /* bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100%; */
+}
+.footer a {
+  color: #4a4a6c;
+}
+
+.footer p {
+  flex: 50%;
+  border: 0;
+  margin: 1em 0 0 0;
 }
 
 .link {
@@ -96,5 +66,13 @@ h1, h2 {
 .card-footer a:hover{
   cursor: pointer;
 }
+
+@media screen and (max-width: 700px) { 
+  #content {
+    margin-bottom: 3rem;
+    font-size: 95%;
+  }
+}
+
 
 
