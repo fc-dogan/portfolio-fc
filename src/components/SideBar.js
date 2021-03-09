@@ -9,8 +9,7 @@ function SideBar() {
         <p id='name'>Fatma C. Dogan</p>
       </div>
       <div id="links">
-  
-        <a href="https://github.com/fc-dogan/portfolio-fc" > Home</a>
+        <a href="/" > Home</a>
         <a href="#projects" >Projects</a>
         <a href='#aboutMe' >About Me</a>
         <a href="#education" >Education</a>
